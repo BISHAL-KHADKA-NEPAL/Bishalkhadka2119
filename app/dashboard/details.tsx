@@ -15,7 +15,7 @@ declare global {
 
 export function UserDetails() {
   const { isLoaded, user } = useUser();
-  const [jsonOutput, seJsonOutput] = useState(false);
+  const [jsonOutput, setJsonOutput] = useState(false);
 
   return (
     <div
@@ -106,7 +106,7 @@ export function UserDetails() {
 
 export function SessionDetails() {
   const { isLoaded, session } = useSession();
-  const [jsonOutput, seJsonOutput] = useState(false);
+  const [jsonOutput, setJsonOutput] = useState(false);
 
   return (
     <div
