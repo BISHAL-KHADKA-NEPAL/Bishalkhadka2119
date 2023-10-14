@@ -14,13 +14,14 @@ import { Twitter } from "./icons";
 import { Discord } from "./icons";
 import { Metadata } from "next";
 
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Bishal Khadka",
   description:
     "welcome my friend",
-  openGraph: { images: ["/og.png"] },
+  openGraph: { images: ["/bishal.png"] },
 };
 
 export default function RootLayout({
@@ -52,7 +53,7 @@ export default function RootLayout({
             <Link href="/" className="flex items-center h-20 gap-2 sm:gap-4">
               <Image
                 src="/bishal.png"
-                alt="nepta Logo"
+                alt="bishal Logo"
                 width={150}
                 height={32}
                 priority
@@ -109,18 +110,8 @@ export default function RootLayout({
                 </div>
                 <span className="hidden sm:inline"> View on Facebook</span>
               </a>
-              <a
-                className="flex flex-col justify-center p-2 hover:underline"
-                href="https://www.facebook.com/profile.php?id=100086984447908"
-              >
-                <Twitter />
-              </a>
-              <a
-                className="flex flex-col justify-center p-2 hover:underline"
-                href="https://www.facebook.com/profile.php?id=100086984447908"
-              >
-                <Facebook />
-              </a>
+              
+              
             </nav>
           </footer>
         </body>
