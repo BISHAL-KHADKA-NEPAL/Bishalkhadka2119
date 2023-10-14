@@ -15,7 +15,7 @@ declare global {
 
 export function UserDetails() {
   const { isLoaded, user } = useUser();
-  const [jsonOutput, setJsonOutput] = useState(false);
+  const [jsonOutput, seJsonOutput] = useState(false);
 
   return (
     <div
@@ -26,7 +26,7 @@ export function UserDetails() {
     >
       <div className="flex p-8">
         <h3 className="text-xl leading-6 font-semibold text-gray-900 my-auto">
-          User
+          HAPPY DASHAIN
         </h3>
 
         <Toggle
@@ -106,7 +106,7 @@ export function UserDetails() {
 
 export function SessionDetails() {
   const { isLoaded, session } = useSession();
-  const [jsonOutput, setJsonOutput] = useState(false);
+  const [jsonOutput, seJsonOutput] = useState(false);
 
   return (
     <div
@@ -117,7 +117,7 @@ export function SessionDetails() {
     >
       <div className="flex p-8">
         <h3 className="text-xl leading-6 font-semibold text-gray-900 my-auto">
-          Session
+          HAPPY TIHAR
         </h3>
         <Toggle
           checked={jsonOutput}
@@ -195,7 +195,7 @@ export function OrgDetails() {
     >
       <div className="flex p-8">
         <h3 className="text-xl leading-6 font-semibold text-gray-900 my-auto">
-          Organization
+          Message From Bishal
         </h3>
         <Toggle
           checked={jsonOutput}
@@ -257,8 +257,9 @@ export function OrgDetails() {
         ) : (
           <div className="text-gray-700 px-8 pb-5 text-sm">
             You are currently logged in to your personal workspace.
+            
             <br />
-            Create or switch to an organization to see its details.
+            This section will be update after somedays. 
           </div>
         )
       ) : (

@@ -9,7 +9,7 @@ import { Inter } from "next/font/google";
 import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
-import { Docs, Github, Times } from "./icons";
+import { Docs, Facebook, Github, Times } from "./icons";
 import { Twitter } from "./icons";
 import { Discord } from "./icons";
 import { Metadata } from "next";
@@ -17,9 +17,9 @@ import { Metadata } from "next";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Next.js Clerk Template",
+  title: "Bishal Khadka",
   description:
-    "A simple and powerful Next.js template featuring authentication and user management powered by Clerk.",
+    "welcome my friend",
   openGraph: { images: ["/og.png"] },
 };
 
@@ -51,20 +51,13 @@ export default function RootLayout({
           <header className="flex items-center h-20 gap-4 px-4 border-b border-black border-solid sm:px-8 border-opacity-20">
             <Link href="/" className="flex items-center h-20 gap-2 sm:gap-4">
               <Image
-                src="/clerk.svg"
-                alt="Clerk Logo"
-                width={102}
+                src="/bishal.png"
+                alt="nepta Logo"
+                width={150}
                 height={32}
                 priority
               />
-              <Times />
-              <Image
-                src="/next.svg"
-                alt="Next.js Logo"
-                width={90}
-                height={18}
-                priority
-              />
+              
             </Link>
             <div className="grow" />
             <SignedIn>
@@ -89,44 +82,44 @@ export default function RootLayout({
           <main className="grow">{children}</main>
           <footer className="flex items-center h-20 gap-1 px-8 font-medium border-t md:px-20">
             <Image
-              src="/clerk.svg"
-              alt="Clerk Logo"
-              width={64}
-              height={32}
+              src="/bishal.png"
+              alt="bishal  Logo"
+              width={150}
+              height={100}
               priority
             />
-            <span className="text-sm">© 2023</span>
+            <span className="text-sm"></span>
             <nav className="flex justify-end grow sm:gap-2">
               <a
                 className="flex gap-2 px-3 py-2 text-sm font-semibold text-gray-600 transition duration-100 rounded-md hover:text-gray-800"
-                href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+                href="https://www.facebook.com/profile.php?id=100086984447908"
               >
                 <div className="m-auto">
                   <Docs />
                 </div>
-                <span className="hidden sm:inline"> Visit Clerk Docs</span>
-                <span className="inline sm:hidden"> Docs</span>
+                <span className="hidden sm:inline"> View BishaL Profile</span>
+                <span className="inline sm:hidden"> Contact</span>
               </a>
               <a
                 className="flex gap-2 px-3 py-2 text-sm font-semibold text-gray-600 transition duration-100 rounded-md hover:text-gray-800"
-                href="https://github.com/clerkinc/clerk-next-app"
+                href="https://www.facebook.com/profile.php?id=100086984447908"
               >
                 <div className="m-auto">
-                  <Github />
+                  <Facebook />
                 </div>
-                <span className="hidden sm:inline"> View on Github</span>
+                <span className="hidden sm:inline"> View on Facebook</span>
               </a>
               <a
                 className="flex flex-col justify-center p-2 hover:underline"
-                href="https://twitter.com/ClerkDev"
+                href="https://www.facebook.com/profile.php?id=100086984447908"
               >
                 <Twitter />
               </a>
               <a
                 className="flex flex-col justify-center p-2 hover:underline"
-                href="https://discord.com/invite/b5rXHjAg7A"
+                href="https://www.facebook.com/profile.php?id=100086984447908"
               >
-                <Discord />
+                <Facebook />
               </a>
             </nav>
           </footer>

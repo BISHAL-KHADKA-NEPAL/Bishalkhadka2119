@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import componentsImg from "./assets/components.svg";
+import componentsImg from "./assets/np.jpg";
 import { DownArrow, RightArrow } from "./icons";
 import "./home.css";
 
@@ -10,18 +10,17 @@ export default function Home() {
       <article className="grid lg:grid-cols-2">
         <div className="px-8 py-20 md:px-20 lg:py-48">
           <h1 className="text-5xl font-semibold text-transparent md:text-6xl gradient">
-            Auth starts here.
+          About Website ?
           </h1>
           <p className="mt-2 text-lg">
-            A simple and powerful Next.js template featuring authentication and
-            user management powered by Clerk.
+          This website currently only offers signup functionality. I will update the website in a few days. You can create your account by clicking on 'Sign in'
           </p>
           <div className="flex gap-2 mt-8">
             <Link
               href="/dashboard"
               className="flex content-center gap-2 px-4 py-2 font-semibold text-white transition-colors duration-200 rounded-lg bg-primary-600 hover:bg-primary-700"
             >
-              View Demo
+               Sign in
               <div className="m-auto">
                 <RightArrow />
               </div>
@@ -38,69 +37,65 @@ export default function Home() {
           </div>
         </div>
         <div className="flex flex-col justify-center">
-          <Image src={componentsImg} alt="Clerk embeddable components" />
+          <Image src={componentsImg} alt="bishal khadka" />
         </div>
       </article>
       <article
         className="px-8 py-12 bg-black bg-opacity-5 md:px-20 md:py-24"
         id="features"
       >
-        <h2 className="text-3xl font-semibold">What's under the hood?</h2>
+        <h2 className="text-3xl font-semibold">Why I'm Here</h2>
         <p className="mt-2">
-          This template repo uses some of the following features provided by
-          Clerk. To learn more, read the{" "}
+        The primary purpose of this site is to refine my skills and experiment with new ideas. I'm using it as a platform to test, learn, and iterate{" "}
           <a
-            href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+            href="https://www.facebook.com/profile.php?id=100086984447908"
             className="font-medium text-primary-600 hover:underline"
           >
-            Clerk Docs
+            Contact me
           </a>
           .
         </p>
         <div className="grid gap-8 mt-8 lg:grid-cols-3">
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">Customizable Components</h3>
+            <h3 className="text-lg font-medium">My Academic Path</h3>
             <p className="text-gray-700">
-              Prebuilt components to handle essential functionality like user
-              sign-in, sign-up, and account management.
+            My current focus is on my BBA program at MMC Dharan, where I'm diving deep into the world of business and administration.
             </p>
             <div className="grow"></div>
             <a
-              href="https://clerk.com/docs/component-reference/overview?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+              href="https://www.facebook.com/profile.php?id=100086984447908"
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
-              Components <span className="arrow">-&gt;</span>
+              Contact me <span className="arrow">-&gt;</span>
             </a>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">React Hooks</h3>
+            <h3 className="text-lg font-medium">Let's Connect</h3>
             <p className="text-gray-700">
-              Build custom functionality by accessing auth state, user and
-              session data, and more with Clerk's React Hooks.
+            I'm a firm believer in the internet's power to forge connections. Feel free to reach out for discussions, collaborations, or just to say hello!
             </p>
             <div className="grow"></div>
             <a
-              href="https://clerk.com/docs/reference/clerk-react/useuser?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+              href="https://www.facebook.com/profile.php?id=100086984447908"
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
-              React Hooks <span className="arrow">-&gt;</span>
+              Say hello! <span className="arrow">-&gt;</span>
             </a>
           </div>
           <div className="flex flex-col h-56 gap-1 p-8 bg-white shadow-lg rounded-2xl">
-            <h3 className="text-lg font-medium">Multitenancy</h3>
+            <h3 className="text-lg font-medium">Welcome to My Digital Sanctuary</h3>
             <p className="text-gray-700">
-              Seamlessly create and switch between organizations, invite and
-              manage members, and assign custom roles.
+            Greetings, and thank you for stepping into my digital realm. I'm Bishal, and I'm delighted to have you here.
             </p>
             <div className="grow"></div>
             <a
-              href="https://clerk.com/docs/organizations/overview?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+              href="https://www.facebook.com/profile.php?id=100086984447908"
               className="text-primary-600 cta hover:underline"
               target="_blank"
             >
-              Organizations <span className="arrow">-&gt;</span>
+              Message me <span className="arrow">-&gt;</span>
             </a>
           </div>
         </div>

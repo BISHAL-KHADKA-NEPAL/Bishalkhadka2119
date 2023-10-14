@@ -27,13 +27,13 @@ export default async function DashboardPage() {
           <h2 className="mt-16 mb-4 text-3xl font-semibold text-black">
             What's next?
           </h2>
-          Read the{" "}
+          {" "}
           <Link
             className="font-medium text-primary-600 hover:underline"
-            href="https://clerk.com/docs?utm_source=vercel-template&utm_medium=template_repos&utm_campaign=nextjs_template"
+            href="https://www.facebook.com/profile.php?id=100086984447908"
             target="_blank"
           >
-            Clerk Docs -&gt;
+            Contact Bishal -&gt;
           </Link>
         </>
       )}
