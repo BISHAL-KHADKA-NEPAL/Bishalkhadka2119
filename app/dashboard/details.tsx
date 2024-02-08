@@ -26,7 +26,7 @@ export function UserDetails() {
     >
       <div className="flex p-8">
         <h3 className="text-xl leading-6 font-semibold text-gray-900 my-auto">
-          HAPPY DASHAIN
+          HELLO
         </h3>
 
         <Toggle
